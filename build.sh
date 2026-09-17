@@ -1,7 +1,7 @@
 #!/bin/bash
 # A script for preparing binaries of Bibata Cursors, created by Abdulkaiz Khatri.
 
-version="v2.0.6"
+version="v2.0.7"
 
 error() (
   set -o pipefail
@@ -36,6 +36,8 @@ names["Bibata-Modern-Amber"]=$(with_version "Yellowish and rounded edge Bibata")
 names["Bibata-Modern-Amber-Right"]=$(with_version "Yellowish and rounded edge right-hand Bibata")
 names["Bibata-Modern-Classic"]=$(with_version "Black and rounded edge Bibata")
 names["Bibata-Modern-Classic-Right"]=$(with_version "Black and rounded edge right-hand Bibata")
+names["Bibata-Modern-Orange-Black"]=$(with_version "Orange Bibata with black outlines")
+names["Bibata-Modern-Black-Orange"]=$(with_version "Black Bibata with orange outlines")
 names["Bibata-Modern-Ice"]=$(with_version "White and rounded edge Bibata")
 names["Bibata-Modern-Ice-Right"]=$(with_version "White and rounded edge right-hand Bibata")
 names["Bibata-Original-Amber"]=$(with_version "Yellowish and sharp edge Bibata")
@@ -57,6 +59,9 @@ for key in "${!names[@]}"; do
   PID=$!
   wait $PID
 done
+
+# Include SVG cursors for GNOME 51 without replacing legacy Xcursors.
+python3 tools/build_svg_cursors.py || exit 1
 
 # Building Bibata Windows binaries
 for key in "${!names[@]}"; do

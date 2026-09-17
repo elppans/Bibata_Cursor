@@ -37,6 +37,25 @@
     ]
   },
 
+  "Bibata-Modern-Orange-Black": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Modern-Orange-Black",
+    "colors": [
+      { "match": "#00FF00", "replace": "#FF8300" },
+      { "match": "#0000FF", "replace": "#000000" },
+      { "match": "#FF0000", "replace": "#FF8300" }
+    ]
+  },
+  "Bibata-Modern-Black-Orange": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Modern-Black-Orange",
+    "colors": [
+      { "match": "#00FF00", "replace": "#000000" },
+      { "match": "#0000FF", "replace": "#FF8300" },
+      { "match": "#FF0000", "replace": "#000000" }
+    ]
+  },
+
   "Bibata-Modern-Ice": {
     "dir": "svg/modern",
     "out": "bitmaps/Bibata-Modern-Ice",

@@ -7,6 +7,7 @@
     "clean": "rm -rf bin bitmaps themes",
     "render": "npx cbmp render.json",
     "build": "bash build.sh",
+    "build:svg": "python3 tools/build_svg_cursors.py",
     "generate": "npx cbmp render.json && bash build.sh"
   }
 }

@@ -1,0 +1,58 @@
+# Maintainer: Tales A. Mendonça <talesam@gmail.com>
+
+pkgname=big-bibata-cursor-theme
+pkgdesc="Bibata cursors with Xcursor and scalable SVG support for GNOME 50/51"
+# Uncomment and edit the following lines as needed
+#depends=('')
+makedepends=('git' 'python>=3.11' 'python-clickgen' 'librsvg')
+#optdepends=('')
+conflicts=('bibata-cursor-theme')
+provides=('bibata-cursor-theme')
+replaces=('bibata-cursor-theme')
+pkgver=$(date +%y.%m.%d)
+pkgrel=$(date +%H%M)
+arch=('any')
+license=('GPL-3.0-only')
+url="https://github.com/big-comm/Bibata_Cursor"
+source=("${pkgname}::git+${url}.git")
+md5sums=('SKIP')
+
+# Automatically detect and use the correct install file
+if [ -e "${pkgname}.install" ]; then
+    install=${pkgname}.install
+elif [ -e "pkgbuild.install" ]; then
+    install=pkgbuild.install
+fi
+
+prepare() {
+    cd "${srcdir}/${pkgname}"
+    # Add any preparation steps here, if needed
+    # For example: patch -p1 < "${srcdir}/patch-file.patch"
+}
+
+build() {
+    cd "${srcdir}/${pkgname}"
+    python tools/build_linux.py --sizes 24 32 48
+}
+
+check() {
+    cd "${srcdir}/${pkgname}"
+    python -m unittest discover -s tests -v
+}
+
+package() {
+    cd "${srcdir}/${pkgname}"
+
+    install -dm755 "${pkgdir}/usr/share/icons"
+    cp -a themes/Bibata-* "${pkgdir}/usr/share/icons/"
+
+    # Install license file if present
+    if [ -f "LICENSE" ]; then
+        install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+    fi
+
+    # Install documentation if present
+    if [ -f "README.md" ]; then
+        install -Dm644 README.md "${pkgdir}/usr/share/doc/${pkgname}/README.md"
+    fi
+}

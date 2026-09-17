@@ -1,3 +1,38 @@
+## BigCommunity fork: GNOME 50 and 51
+
+Linux themes include legacy `cursors/` and SVG `cursors_scalable/` together.
+GNOME 50 uses Xcursor; GNOME 51 loads SVG cursors. The SVG build reuses
+`render.json` colors and the existing TOML hotspots, aliases and animation
+timing for all fourteen variants. Upstream artwork and credits are preserved.
+
+Two additional Modern Classic variants reuse the original shapes:
+
+- `Bibata-Modern-Orange-Black`: orange (`#FF8300`) fill, black outline.
+- `Bibata-Modern-Black-Orange`: black fill, orange (`#FF8300`) outline.
+
+Build all Linux variants without Node or a browser:
+
+```sh
+# Arch/Manjaro build dependencies: python>=3.11 python-clickgen librsvg
+python tools/build_linux.py
+python -m unittest discover -s tests -v
+```
+
+Use `--theme Bibata-Modern-Classic` to build one variant. Output defaults to
+`themes/`; `--output PATH` selects another directory. To generate only SVG
+assets, run `python tools/build_svg_cursors.py` (Python 3.11+ only).
+The upstream `yarn build` workflow also includes SVG assets in Linux archives.
+
+`pkgbuild/PKGBUILD` builds `big-bibata-cursor-theme` from this fork. It provides,
+conflicts with and replaces `bibata-cursor-theme`, allowing migration during
+a repository system upgrade without relying on same-name repository priority.
+Existing theme names remain unchanged. Both formats are installed under
+`/usr/share/icons`. It preserves the distribution's legacy
+24/32/48 pixel sizes; SVG cursors scale independently. The template's date-based `pkgver`
+and `pkgrel` are unchanged. No session restart or settings changes are performed
+by the package. Runtime validation covers cursor selection separately from
+the build tests; SVG support does not imply testing every desktop environment.
+
 ## ⚠️ Notice: Final Major Version v2.x.x
 
 I've launched the successor to this project at https://www.github.com/ful1e5/bibata for **downloading and personalizing Bibata**, now the main source for new features. I recommend downloading from there. This repository is still maintained for [Linux packages](#packages).
