@@ -130,5 +130,1013 @@
       { "match": "#0000FF", "replace": "#000000" },
       { "match": "#FF0000", "replace": "#FFFFFF" }
     ]
+  },
+  "Bibata-Material-Ice-Blue": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Ice-Blue",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#1a333d"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#a8cbe2"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#0a1f26"
+      }
+    ]
+  },
+  "Bibata-Material-Sky-Blue": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Sky-Blue",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#0e3251"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#8dcdff"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#051d32"
+      }
+    ]
+  },
+  "Bibata-Material-Deep-Blue": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Deep-Blue",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#003340"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#00b4d8"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#001f27"
+      }
+    ]
+  },
+  "Bibata-Material-Soft-Blue": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Soft-Blue",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#353f61"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#b2c5ff"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#1c233a"
+      }
+    ]
+  },
+  "Bibata-Material-Mint": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Mint",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#00382f"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#65dac4"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#00211c"
+      }
+    ]
+  },
+  "Bibata-Material-Seafoam": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Seafoam",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#003730"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#85dfcf"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#00211d"
+      }
+    ]
+  },
+  "Bibata-Material-Teal": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Teal",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#002020"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#009393"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#001010"
+      }
+    ]
+  },
+  "Bibata-Material-Peach": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Peach",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#4e2a1f"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#ffb59a"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#31170e"
+      }
+    ]
+  },
+  "Bibata-Material-Apricot": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Apricot",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#4e2e1d"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#ffc9a8"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#31190a"
+      }
+    ]
+  },
+  "Bibata-Material-Sunset": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Sunset",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#4e2b14"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#ffb785"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#311905"
+      }
+    ]
+  },
+  "Bibata-Material-Blush": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Blush",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#4e2a27"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#ffb4a8"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#311714"
+      }
+    ]
+  },
+  "Bibata-Material-Salmon": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Salmon",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#532226"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#fa8072"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#351315"
+      }
+    ]
+  },
+  "Bibata-Material-Pink-Pastel": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Pink-Pastel",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#502334"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#ffb0cb"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#331520"
+      }
+    ]
+  },
+  "Bibata-Material-Pink-Rose": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Pink-Rose",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#502a3d"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#ffbade"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#331925"
+      }
+    ]
+  },
+  "Bibata-Material-Lilac": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Lilac",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#373151"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#ccbeff"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#201c31"
+      }
+    ]
+  },
+  "Bibata-Material-Violet": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Violet",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#402848"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#edb8ff"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#231528"
+      }
+    ]
+  },
+  "Bibata-Material-Sage": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Sage",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#354a23"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#c7f69a"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#1e2d12"
+      }
+    ]
+  },
+  "Bibata-Material-Lime": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Lime",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#3c4a30"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#d5f6b8"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#242d1c"
+      }
+    ]
+  },
+  "Bibata-Material-Moss": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Moss",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#232208"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#98971a"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#141304"
+      }
+    ]
+  },
+  "Bibata-Material-Sand": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Sand",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#3d352f"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#d7c4b6"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#25201c"
+      }
+    ]
+  },
+  "Bibata-Material-Beige": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Beige",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#4a4232"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#f5e6ca"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#2d271e"
+      }
+    ]
+  },
+  "Bibata-Material-Brown": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Brown",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#392312"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#cb824d"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#22140a"
+      }
+    ]
+  },
+  "Bibata-Material-Cloud": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Cloud",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#2e3138"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#abb2bf"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#1a1d22"
+      }
+    ]
+  },
+  "Bibata-Material-Grey": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Grey",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#35373c"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#c7ccd6"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#202124"
+      }
+    ]
+  },
+  "Bibata-Material-Slate": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Slate",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#1f262b"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#8292a2"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#121619"
+      }
+    ]
+  },
+  "Bibata-Material-Noir": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Noir",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#1a1a1a"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#8c8c8c"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#0a0a0a"
+      }
+    ]
+  },
+  "Bibata-Material-Midnight": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Midnight",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#080a07"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#6d8c5a"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#030403"
+      }
+    ]
+  },
+  "Bibata-Material-Charcoal": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Charcoal",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#0f1519"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#7591a3"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#080b0e"
+      }
+    ]
+  },
+  "Bibata-Material-Ice-Blue-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Ice-Blue-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#e0eaf1"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#126ba6"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f3f5f6"
+      }
+    ]
+  },
+  "Bibata-Material-Sky-Blue-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Sky-Blue-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#dfeaf3"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#0567b4"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f3f5f6"
+      }
+    ]
+  },
+  "Bibata-Material-Deep-Blue-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Deep-Blue-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#d9edf0"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#037086"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f3f6f6"
+      }
+    ]
+  },
+  "Bibata-Material-Soft-Blue-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Soft-Blue-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#e0e5f3"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#0531b9"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f3f4f6"
+      }
+    ]
+  },
+  "Bibata-Material-Mint-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Mint-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#def0ed"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#0a6e5a"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f3f6f6"
+      }
+    ]
+  },
+  "Bibata-Material-Seafoam-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Seafoam-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#dff1ee"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#0b6b7a"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f3f6f6"
+      }
+    ]
+  },
+  "Bibata-Material-Teal-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Teal-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#d6efef"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#036f6f"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f3f6f6"
+      }
+    ]
+  },
+  "Bibata-Material-Peach-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Peach-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#f3e4df"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#b63405"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f4f3"
+      }
+    ]
+  },
+  "Bibata-Material-Apricot-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Apricot-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#f3e7e0"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#ae4504"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f4f3"
+      }
+    ]
+  },
+  "Bibata-Material-Sunset-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Sunset-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#f3e7de"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#a63a00"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f5f3"
+      }
+    ]
+  },
+  "Bibata-Material-Blush-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Blush-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#f3e2e0"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#b81d05"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f4f3"
+      }
+    ]
+  },
+  "Bibata-Material-Salmon-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Salmon-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#f2e0de"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#ad1806"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f4f3"
+      }
+    ]
+  },
+  "Bibata-Material-Pink-Pastel-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Pink-Pastel-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#f3e0e6"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#b90542"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f3f4"
+      }
+    ]
+  },
+  "Bibata-Material-Pink-Rose-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Pink-Rose-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#f3e0ea"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#ba0563"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f3f5"
+      }
+    ]
+  },
+  "Bibata-Material-Lilac-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Lilac-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#e4e0f3"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#2c05bb"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f4f3f6"
+      }
+    ]
+  },
+  "Bibata-Material-Violet-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Violet-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#eee0f3"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#8c05ba"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f3f6"
+      }
+    ]
+  },
+  "Bibata-Material-Sage-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Sage-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#e9f2df"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#3d7606"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f5f6f3"
+      }
+    ]
+  },
+  "Bibata-Material-Lime-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Lime-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#eef3d9"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#5a7500"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f5f6f3"
+      }
+    ]
+  },
+  "Bibata-Material-Moss-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Moss-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#efefd9"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#676608"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f6f3"
+      }
+    ]
+  },
+  "Bibata-Material-Sand-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Sand-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#f0e8e1"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#a05218"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f5f3"
+      }
+    ]
+  },
+  "Bibata-Material-Beige-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Beige-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#f2ece1"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#8c5f0b"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f5f3"
+      }
+    ]
+  },
+  "Bibata-Material-Brown-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Brown-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#f0e5dd"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#97490f"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f6f5f3"
+      }
+    ]
+  },
+  "Bibata-Material-Cloud-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Cloud-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#e1e6ef"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#2f3a4d"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f3f4f6"
+      }
+    ]
+  },
+  "Bibata-Material-Grey-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Grey-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#e2e7f0"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#40444a"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f3f4f6"
+      }
+    ]
+  },
+  "Bibata-Material-Slate-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Slate-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#dde6ee"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#2e4052"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f3f5f6"
+      }
+    ]
+  },
+  "Bibata-Material-Noir-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Noir-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#ebebeb"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#4c4c4c"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f7f7f7"
+      }
+    ]
+  },
+  "Bibata-Material-Midnight-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Midnight-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#e3eedc"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#3a7714"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f4f6f3"
+      }
+    ]
+  },
+  "Bibata-Material-Charcoal-Light": {
+    "dir": "svg/modern",
+    "out": "bitmaps/Bibata-Material-Charcoal-Light",
+    "colors": [
+      {
+        "match": "#00FF00",
+        "replace": "#dee8ee"
+      },
+      {
+        "match": "#0000FF",
+        "replace": "#18608f"
+      },
+      {
+        "match": "#FF0000",
+        "replace": "#f3f5f6"
+      }
+    ]
   }
 }

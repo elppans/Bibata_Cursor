@@ -12,7 +12,7 @@ replaces=('bibata-cursor-theme')
 pkgver=$(date +%y.%m.%d)
 pkgrel=$(date +%H%M)
 arch=('any')
-license=('GPL-3.0-only')
+license=('GPL-3.0-only' 'MIT')
 url="https://github.com/big-comm/Bibata_Cursor"
 source=("${pkgname}::git+${url}.git")
 md5sums=('SKIP')
@@ -45,6 +45,8 @@ package() {
 
     install -dm755 "${pkgdir}/usr/share/icons"
     cp -a themes/Bibata-* "${pkgdir}/usr/share/icons/"
+    install -Dm644 material-palettes.json "${pkgdir}/usr/share/${pkgname}/material-palettes.json"
+    install -Dm644 LICENSE.material "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE.material"
 
     # Install license file if present
     if [ -f "LICENSE" ]; then

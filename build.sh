@@ -48,6 +48,10 @@ names["Bibata-Original-Ice"]=$(with_version "White and sharp edge Bibata")
 names["Bibata-Original-Ice-Right"]=$(with_version "White and sharp edge right-hand Bibata")
 
 # Cleanup old builds
+while IFS= read -r name; do
+  names["$name"]=$(with_version "Material Bibata")
+done < <(python3 -c 'import json; print("\n".join(n for n in json.load(open("render.json")) if n.startswith("Bibata-Material-")))')
+
 rm -rf themes bin
 
 # Building Bibata XCursor binaries

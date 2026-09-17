@@ -91,6 +91,8 @@ def build_theme(name, variant, output, root=ROOT):
     if not index.exists():
         index.write_text(f'[Icon Theme]\nName={name}\nComment=Bibata scalable cursors\n')
     shutil.copyfile(root / 'LICENSE', theme_dir / 'LICENSE')
+    if name.startswith('Bibata-Material-'):
+        shutil.copyfile(root / 'LICENSE.material', theme_dir / 'LICENSE.material')
 
 
 def main():

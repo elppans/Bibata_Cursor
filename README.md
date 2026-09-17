@@ -3,12 +3,24 @@
 Linux themes include legacy `cursors/` and SVG `cursors_scalable/` together.
 GNOME 50 uses Xcursor; GNOME 51 loads SVG cursors. The SVG build reuses
 `render.json` colors and the existing TOML hotspots, aliases and animation
-timing for all fourteen variants. Upstream artwork and credits are preserved.
+timing for all seventy variants. Upstream artwork and credits are preserved.
 
 Two additional Modern Classic variants reuse the original shapes:
 
 - `Bibata-Modern-Orange-Black`: orange (`#FF8300`) fill, black outline.
 - `Bibata-Modern-Black-Orange`: black fill, orange (`#FF8300`) outline.
+
+The 56 `Bibata-Material-*` variants add 28 dark/light pairs from
+[Material Bibata Cursor](https://github.com/SakibShahariar/material-bibata-cursor),
+commit `517f397` (2026-08-30). Its duplicate Classic palette is not built again.
+Palette data is in `material-palettes.json`; `render.json` contains matching build
+entries. Dark Teal and Slate outlines were lightened to `#009393` and `#8292a2`
+to meet a 4.5:1 body/outline contrast target. This does not guarantee visibility
+against every background. MIT attribution is preserved in `LICENSE.material`.
+Cursor artwork remains under the Bibata license.
+
+Installed palette data supports optional system-accent matching in Big Gnome
+Center. Installing this package does not enable automatic cursor changes.
 
 Build all Linux variants without Node or a browser:
 

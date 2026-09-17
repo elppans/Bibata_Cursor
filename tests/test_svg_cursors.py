@@ -34,7 +34,7 @@ class SvgCursorTests(unittest.TestCase):
         cls.directory.cleanup()
 
     def test_all_variants_cover_native_cursor_names(self):
-        self.assertEqual(len(self.variants), 14)
+        self.assertEqual(len(self.variants), 70)
         for name in self.variants:
             scalable = self.output / name / 'cursors_scalable'
             for cursor in CURSORS:
