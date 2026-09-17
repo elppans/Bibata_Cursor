@@ -3,6 +3,13 @@ themes/
 bin/
 bitmaps/
 
+# Arch package build artifacts
+/pkgbuild/src/
+/pkgbuild/pkg/
+/pkgbuild/big-bibata-cursor-theme/
+*.pkg.tar*
+*.src.tar*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
